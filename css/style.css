@@ -612,13 +612,14 @@ footer{
         flex-grow: 1;
         -ms-flex-align: center;
         position: absolute;
-        top: 57px;
+        top: 56px;
         z-index: 100;
         background: #fff;
         padding: 20px;
         right: -80px;
         width: 268px;
         align-items: center;
+
     }
 
 }

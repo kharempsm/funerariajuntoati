@@ -63,40 +63,55 @@
 <div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="3000">
     <div class="carousel-inner">
         <div class="carousel-item active container_slider">
-            <img src="./img/slider-1.jpg" class="d-block w-100" alt="Imagen 1">
+            <picture>
+                <!-- Imagen para dispositivos con un ancho máximo de 500px -->
+                <source media="(max-width: 500px)" srcset="./img/slider-1-mobile.jpg">
+                <!-- Imagen por defecto para dispositivos más grandes -->
+                <img src="./img/slider-1.jpg" class="d-block w-100" alt="Imagen 1">
+            </picture>
             <div class="caption_slider">
                 <h2 class="title_slider">Honramos la vida con dignidad y compasión</h2>
                 <div class="caption_btn">
                     <a href="#" class="slider_btn"><i class="fa-brands fa-whatsapp icon_header"></i><span>Whatsapp</span></a>
                     <a href="#" class="slider_btn"><i class="fa-solid fa-phone icon_header"></i><span>Llamar</span></a>
-                    
                 </div>
             </div>
-            
         </div>
+        
         <div class="carousel-item container_slider">
-            <img src="./img/slider-2.jpg" class="d-block w-100" alt="Imagen 2">
+            <picture>
+                <!-- Imagen para dispositivos con un ancho máximo de 500px -->
+                <source media="(max-width: 500px)" srcset="./img/slider-1-mobile.jpg">
+                <!-- Imagen por defecto para dispositivos más grandes -->
+                <img src="./img/slider-2.jpg" class="d-block w-100" alt="Imagen 2">
+            </picture>
             <div class="caption_slider">
                 <h2 class="title_slider">Honramos la vida con dignidad y compasión</h2>
                 <div class="caption_btn">
                     <a href="#" class="slider_btn"><span>Contacto</span></a>
                     <a href="#" class="slider_btn"><span>Llama 24 H</span></a>
-                    
                 </div>
             </div>
         </div>
+
         <div class="carousel-item container_slider">
-            <img src="./img/slider-3.jpg" class="d-block w-100" alt="Imagen 3">
+            <picture>
+                <!-- Imagen para dispositivos con un ancho máximo de 500px -->
+                <source media="(max-width: 500px)" srcset="./img/slider-1-mobile.jpg">
+                <!-- Imagen por defecto para dispositivos más grandes -->
+                <img src="./img/slider-3.jpg" class="d-block w-100" alt="Imagen 3">
+            </picture>
             <div class="caption_slider">
                 <h2 class="title_slider">Honramos la vida con dignidad y compasión</h2>
                 <div class="caption_btn">
                     <a href="#" class="slider_btn"><span>Contacto</span></a>
                     <a href="#" class="slider_btn"><span>Llama 24 H</span></a>
-                    
                 </div>
             </div>
         </div>
     </div>
+
+    <!-- Controles del carrusel -->
     <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Anterior</span>
@@ -106,6 +121,7 @@
         <span class="sr-only">Siguiente</span>
     </a>
 </div>
+
 
 <!-- NUESTROS SERVICIOS -->
 
@@ -279,7 +295,9 @@
             <p>"Funeraria Junto a Ti, esta para acompañarte en cada paso de este duro proceso"</p>
         </div>
     </div>
-    
+    <div class="copyright">
+        <p>&copy; <span id="year"></span> Todos los derechos reservados</p>
+    </div>
 </footer>
 <!-- WSP FLOTANTE -->
  <div class="wsp_flotante">

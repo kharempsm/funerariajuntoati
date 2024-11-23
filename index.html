@@ -27,8 +27,8 @@
 <header class="header" id="header">
     <div class="header_top">
         <div class="top_data">
-            <a href="#"><i class="fa-solid fa-phone icon_header"></i><span class="data-1">+56 9 6527 5998</span></a>
-            <a href="#"><i class="fa-solid fa-envelope icon_header"></i><span class="data-1">contacto@funerariajuntoati.cl</span></a>
+            <a href="tel:56965275998"><i class="fa-solid fa-phone icon_header"></i><span class="data-1">+56 9 6527 5998</span></a>
+            <a href="mailto:funerariajuntoati.cl"><i class="fa-solid fa-envelope icon_header"></i><span class="data-1">contacto@funerariajuntoati.cl</span></a>
         </div>
     </div>
     <div class="header_bottom">
@@ -72,8 +72,8 @@
             <div class="caption_slider">
                 <h2 class="title_slider">Honramos la vida con dignidad y compasión</h2>
                 <div class="caption_btn">
-                    <a href="#" class="slider_btn"><i class="fa-brands fa-whatsapp icon_header"></i><span>Whatsapp</span></a>
-                    <a href="#" class="slider_btn"><i class="fa-solid fa-phone icon_header"></i><span>Llamar</span></a>
+                    <a target="_blank" href="https://wa.me/56965275998?text=Hola,%20estoy%20interesado%20en%20algunos%20de%20sus%20servicios,%20por%20favor%20contactarme" class="slider_btn"><i class="fa-brands fa-whatsapp icon_header"></i><span>Whatsapp</span></a>
+                    <a target="_blank" href="tel:+56965275998" class="slider_btn"><i class="fa-solid fa-phone icon_header"></i><span>Llamar</span></a>
                 </div>
             </div>
         </div>
@@ -88,8 +88,8 @@
             <div class="caption_slider">
                 <h2 class="title_slider">Honramos la vida con dignidad y compasión</h2>
                 <div class="caption_btn">
-                    <a href="#" class="slider_btn"><span>Contacto</span></a>
-                    <a href="#" class="slider_btn"><span>Llama 24 H</span></a>
+                    <a target="_blank" href="https://wa.me/56965275998?text=Hola,%20estoy%20interesado%20en%20algunos%20de%20sus%20servicios,%20por%20favor%20contactarme" class="slider_btn"><i class="fa-brands fa-whatsapp icon_header"></i><span>Whatsapp</span></a>
+                    <a target="_blank" href="tel:+56965275998" class="slider_btn"><i class="fa-solid fa-phone icon_header"></i><span>Llamar</span></a>
                 </div>
             </div>
         </div>
@@ -104,8 +104,8 @@
             <div class="caption_slider">
                 <h2 class="title_slider">Honramos la vida con dignidad y compasión</h2>
                 <div class="caption_btn">
-                    <a href="#" class="slider_btn"><span>Contacto</span></a>
-                    <a href="#" class="slider_btn"><span>Llama 24 H</span></a>
+                    <a target="_blank" href="https://wa.me/56965275998?text=Hola,%20estoy%20interesado%20en%20algunos%20de%20sus%20servicios,%20por%20favor%20contactarme" class="slider_btn"><i class="fa-brands fa-whatsapp icon_header"></i><span>Whatsapp</span></a>
+                    <a target="_blank" href="tel:+56965275998" class="slider_btn"><i class="fa-solid fa-phone icon_header"></i><span>Llamar</span></a>
                 </div>
             </div>
         </div>
@@ -205,7 +205,7 @@
             <li class="planes_li"><i class="fa-sharp fa-solid fa-check icon_planes"></i><span>Salas Velatorias</span></li>
             <li class="planes_li"><i class="fa-sharp fa-solid fa-check icon_planes"></i><span>Unidad de Duelo y Legal</span></li>
         </ul>
-        <a href="#" class="plan_btn">Ver más detalles</a>
+        <a href="https://wa.me/56965275998?text=Hola,%20estoy%20interesado%20por%20el%20Plan%20Superior,%20necesito%20más%20información" class="plan_btn">Saber más</a>
     </div>
     <div class="planes_plan">
         <h1 class="plan_title">Plan <strong class="strong_title">Intermedio</strong></h1>
@@ -219,7 +219,7 @@
             <li class="planes_li"><i class="fa-sharp fa-solid fa-check icon_planes"></i><span>Salas Velatorias</span></li>
             <li class="planes_li"><i class="fa-sharp fa-solid fa-check icon_planes"></i><span>Unidad de Duelo y Legal</span></li>
         </ul>
-        <a href="#" class="plan_btn">Ver más detalles</a>
+        <a href="https://wa.me/56965275998?text=Hola,%20estoy%20interesado%20por%20el%20Plan%20Intermedio,%20necesito%20más%20información" class="plan_btn">Saber más</a>
     </div>
     <div class="planes_plan">
         <h1 class="plan_title">Plan <strong class="strong_title">Económico</strong></h1>
@@ -233,7 +233,7 @@
             <li class="planes_li"><i class="fa-sharp fa-solid fa-check icon_planes"></i><span>Salas Velatorias</span></li>
             <li class="planes_li"><i class="fa-sharp fa-solid fa-check icon_planes"></i><span>Unidad de Duelo y Legal</span></li>
         </ul>
-        <a href="#" class="plan_btn">Ver más detalles</a>
+        <a href="https://wa.me/56965275998?text=Hola,%20estoy%20interesado%20por%20el%20Plan%20Económico,%20necesito%20más%20información" class="plan_btn">Saber más</a>
     </div>
   </div>
 </section>
@@ -244,20 +244,20 @@
     <h2 class="form_title">Si necesitas información <strong>¡Contáctanos!</strong></h2>
     <p class="form_text">En <strong>Funeraria Junto a Ti</strong> estamos para apoyarte en casa paso del proceso, deja tus datos de contactos y nos comunicaremos a la brevedad.</p>
 </div>
-<div class="form_right">
+<form action="enviar.php" method="post" class="form_right"> 
     <div class="data_form">
-        <input type="text" placeholder="Nombre">
-        <input type="email" placeholder="Email">
+        <input type="text" name="nombre" placeholder="Nombre" required>
+        <input type="email" name="email" placeholder="Email" required>
     </div>
 
     <div class="data_form">
-        <input type="number" placeholder="Teléfono">
-        <input type="text" placeholder="Asunto">
+        <input type="number" name="telefono" placeholder="Teléfono" required>
+        <input type="text" name="asunto" placeholder="Asunto" required>
     </div>
     <div class="form_btn">
-        <a class="form_btn-btn">Enviar Mensaje</a>
+        <button type="submit" class="form_btn-btn">Enviar Mensaje</button> 
     </div>
-</div>
+</form>
 </section>
 <footer class="">
     <div class="container cont_footer">
